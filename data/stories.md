@@ -2,12 +2,14 @@
 * saludo
   - utter_saludo
 * reporte_falla_energia{"barrio": "la linda", "ubicacion" : "manizales"}
+  - utter_esperar
   - accion_reporte_falla
 * despedida
   - utter_despedida
 
 ## reporte falla de energia_no_saludo
 * reporte_falla_energia{"barrio": "la linda", "ubicacion" : "manizales"}
+  - utter_esperar
   - accion_reporte_falla
 * despedida
   - utter_despedida
@@ -24,6 +26,7 @@
 * saludo
   - utter_saludo
 * reporte_falla_energia{"vereda": "el consuelo", "ubicacion" : "victoria"}
+  - utter_esperar
   - accion_reporte_falla
 * despedida
   - utter_despedida
@@ -34,6 +37,7 @@
 * reporte_falla_energia
   - utter_ubicacion
 * ubicacion
+  - utter_esperar
   - accion_reporte_falla
 * despedida
   - utter_despedida
