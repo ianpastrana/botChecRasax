@@ -81,7 +81,7 @@
 - a nombre de quien esta el servicio de la luz con numero de cuenta [101177440](numero_cuenta)
 
 
-## intent:falla_servicio_energia
+## intent:reporte_falla_energia
 - me podria decir por que hay falla de energia en [Marulanda](ubicacion)
 - se fue la luz en [Anserma](ubicacion) desde las [10 de la mañana](hora)
 - se fue la luz en [Viterbo](ubicacion) desde las [3 de la madrugada](hora)
@@ -108,10 +108,13 @@
 - necesitamos que se restablezca la luz
 - necesitamos que se restablezca el servicio de energia
 - estoy en [Samaria](ubicacion) y se fue la luz
-- estoy en el [barrio chipre de Manizales](ubicacion) y se fue la luz
+- estoy en el barrio [chipre[(direccion) de [Manizales](ubicacion) y se fue la luz
 - no hay luz en el [aranjuez](ubicacion) 
-- no hay luz en la [carrera 5 # 22 - 17](ubicacion)
-- no hay luz en la [calle 8 # 17 - 22](ubicacion)
+- no hay luz en la [carrera 5 # 22 - 17](direccion)
+- no hay luz en la [calle 8 # 17 - 22](direccion)
+- no hay luz en la [carrera 70 # 80 - 44](direccion) del barrio [palermo] de [manizales](ubicacion)
+- no hay luz en la [calle 8 # 17 - 22](direccion)
+- no hay luz en la [carrera 70 # 80 - 44](direccion) del barrio [las ferias] de [la dorada](ubicacion)
 
 ## intent:explicacion_factura
 - me podria explicar por que tengo que pagar esos valores
