@@ -5,8 +5,6 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- reporte_fallas:
-    use_entities: true  
 - saludo:
     use_entities: true
 - ubicacion:
