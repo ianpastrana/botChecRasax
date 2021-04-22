@@ -33,6 +33,7 @@
   - utter_saludo
 * reporte_falla_energia
   - utter_ubicacion
+* ubicacion
   - accion_reporte_falla
 * despedida
   - utter_despedida
