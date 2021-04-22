@@ -140,6 +140,8 @@ responses:
   utter_esperar:
   - text: Dame un Segundo, por favor
   - text: Esperame un momento
+  utter_ubicacion:
+  - text: Dime la dirección y el municipio
   utter_pedir_cuenta:
   - text: Cual es tu numero de cuenta?
   - text: Dime el numero de tu cuenta
