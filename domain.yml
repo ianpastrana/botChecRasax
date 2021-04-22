@@ -1,4 +1,4 @@
-version: '2.0'
+oversion: '2.0'
 config:
   store_entities_as_slots: true
 session_config:
@@ -54,7 +54,7 @@ entities:
 - accion
 - articulo
 slots:
-  municipio:
+  direccion:
     type: rasa.shared.core.slots.TextSlot
     initial_value: null
     auto_fill: true
