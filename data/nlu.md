@@ -98,6 +98,7 @@
 - la luz se va mucho en [Dosquebradas](ubicacion)
 - que servicio de luz tan malo
 - se fue la luz
+- no hay luz 
 - estamos sin luz 
 - se fue la luz [Victoria](ubicacion)
 - estamos sin luz en [Florencia](ubicacion)
@@ -107,6 +108,10 @@
 - necesitamos que se restablezca la luz
 - necesitamos que se restablezca el servicio de energia
 - estoy en [Samaria](ubicacion) y se fue la luz
+- estoy en el [barrio chipre de Manizales](ubicacion) y se fue la luz
+- no hay luz en el [aranjuez](ubicacion) 
+- no hay luz en la [carrera 5 # 22 - 17](ubicacion)
+- no hay luz en la [calle 8 # 17 - 22](ubicacion)
 
 ## intent:explicacion_factura
 - me podria explicar por que tengo que pagar esos valores
