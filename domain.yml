@@ -5,6 +5,8 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- reporte_fallas:
+    use_entities: true  
 - saludo:
     use_entities: true
 - ubicacion:
@@ -36,6 +38,13 @@ intents:
 - informacion_aliados_comerciales:
     use_entities: true
 entities:
+- falla
+- sector
+- barrio
+- vereda
+- corregimiento
+- municipio
+- energia
 - ubicacion
 - numero_cuenta
 - hora
@@ -48,6 +57,31 @@ entities:
 - accion
 - articulo
 slots:
+  municipio:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  corregimiento:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  vereda:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  barrio:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  sector:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
   ubicacion:
     type: rasa.shared.core.slots.TextSlot
     initial_value: null
@@ -121,6 +155,7 @@ responses:
   utter_template:
   - text: Te puedo ayudar en algo más?
 actions:
+- accion_reporte_falla
 - utter_saludo
 - utter_pedir_cuenta
 - utter_despedida
