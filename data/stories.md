@@ -1,3 +1,19 @@
+## reporte falla de energia + direccion + ubicacion
+* saludo
+  - utter_saludo
+* reporte_falla_energia{"direccion": "cra 4 # 7 - 60", "ubicacion" : "manizales"}
+  - utter_esperar
+  - accion_reporte_falla
+* despedida
+  - utter_despedida
+  - 
+## reporte falla de energia_no_saludo + direccion + ubicacion
+* reporte_falla_energia{"direccion": "cll 13 # 11 - 76", "ubicacion" : "neira"}
+  - utter_esperar
+  - accion_reporte_falla
+* despedida
+  - utter_despedida
+
 ## reporte falla de energia
 * saludo
   - utter_saludo
