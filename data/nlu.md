@@ -88,7 +88,7 @@
 - se fue la luz en [San Jose](ubicacion) desde las [5 de la tarde](hora)
 - se fue la luz en [Palestina](ubicacion) desde las [7 de la noche](hora)
 - me podria decir por que hay falla de energia en [vereda las palmas de Marulanda](ubicacion)
-- se fue la luz en [la vereda la Gloria de Quinchia](ubicacion) desde las [3 de la mañana](hora)
+- se fue la luz en la vereda [la Gloria](vereda) de Quinchia](ubicacion) desde las [3 de la mañana](hora)
 - se fue la luz en [la vereda La Julia de San Bartolo](ubicacion) desde las [4 de la madrugada](hora)
 - se fue la luz en [la vereda la Minita de San Jose](ubicacion) desde las [2 de la tarde](hora)
 - se fue la luz en [la vereda el silicencio de Palestina](ubicacion) desde las [11 de la noche](hora)
@@ -102,7 +102,7 @@
 - estamos sin luz 
 - se fue la luz [Victoria](ubicacion)
 - estamos sin luz en [Florencia](ubicacion)
-- estamos sin servicio de energia
+- estamos sin servicio de energia en la vereda [la plata](vereda) de palestina(ubicacion)
 - estamos sin servicio de energia en [Santa Cecilia](ubicacion)
 - estamos sin servicio de energia en [Pacora](ubicacion)
 - necesitamos que se restablezca la luz
@@ -112,9 +112,10 @@
 - no hay luz en el [aranjuez](ubicacion) 
 - no hay luz en la [carrera 5 # 22 - 17](direccion)
 - no hay luz en la [calle 8 # 17 - 22](direccion)
-- no hay luz en la [carrera 70 # 80 - 44](direccion) del barrio [palermo] de [manizales](ubicacion)
+- no hay luz en la [carrera 70 # 80 - 44](direccion) del barrio [palermo](barrio) de [manizales](ubicacion)
 - no hay luz en la [calle 8 # 17 - 22](direccion)
-- no hay luz en la [carrera 70 # 80 - 44](direccion) del barrio [las ferias] de [la dorada](ubicacion)
+- no hay luz en la [carrera 70 # 80 - 44](direccion) del barrio [las ferias](barrio) de [la dorada](ubicacion)
+- no hay luz en la vereda (el silencio) de samana(ubicacion)
 
 ## intent:explicacion_factura
 - me podria explicar por que tengo que pagar esos valores
