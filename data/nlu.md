@@ -53,6 +53,12 @@
 - [Belen de Umbria](ubicacion)
 - [San Jose](ubicacion)
 - [Viterbo](ubicacion)
+- [cra 8 # 7 44](direccion) [chinchina](ubicacion)
+- [cll 46 # 71 63](direccion) de [anserma](ubicacion)
+- vereda [la palma](vereda) de [manizales](ubicacion)
+- corregimiento [montebonito](corregimiento) de [marulanda](ubicacion)
+- barrio [sorferino](barrio) de [manizales](ubicacion)
+
 
 ## intent:cuenta
 - [123456789](numero_cuenta)
