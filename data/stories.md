@@ -1,3 +1,14 @@
+## reporte falla de energia
+* saludo
+  - utter_saludo
+* solicitud_datos_cuenta{"numero_cuenta": 101177447}
+  - accion_reporte_falla
+* despedida
+  - utter_despedida
+
+
+
+
 ## busqueda solicitud datos cuenta
 * saludo
   - utter_saludo
