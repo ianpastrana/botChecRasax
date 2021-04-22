@@ -1,12 +1,41 @@
 ## reporte falla de energia
 * saludo
   - utter_saludo
-* solicitud_datos_cuenta{"numero_cuenta": 101177447}
+* reporte_falla_energia{"barrio": "la linda", "ubicacion" : "manizales"}
   - accion_reporte_falla
 * despedida
   - utter_despedida
 
+## reporte falla de energia_no_saludo
+* reporte_falla_energia{"barrio": "la linda", "ubicacion" : "manizales"}
+  - accion_reporte_falla
+* despedida
+  - utter_despedida
 
+## reporte falla de energia
+* saludo
+  - utter_saludo
+* reporte_falla_energia{"vereda": "el consuelo", "ubicacion" : "victoria"}
+  - accion_reporte_falla
+* despedida
+  - utter_despedida
+
+## reporte falla de energia no saludo
+* saludo
+  - utter_saludo
+* reporte_falla_energia{"vereda": "el consuelo", "ubicacion" : "victoria"}
+  - accion_reporte_falla
+* despedida
+  - utter_despedida
+
+## reporte falla de energia no saludo
+* saludo
+  - utter_saludo
+* reporte_falla_energia
+  - utter_ubicacion
+  - accion_reporte_falla
+* despedida
+  - utter_despedida
 
 
 ## busqueda solicitud datos cuenta
