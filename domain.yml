@@ -13,7 +13,7 @@ intents:
     use_entities: true
 - solicitud_datos_cuenta:
     use_entities: true
-- falla_servicio_energia:
+- reporte_falla_energia:
     use_entities: true
 - explicacion_factura:
     use_entities: true
@@ -37,11 +37,7 @@ intents:
     use_entities: true
 entities:
 - falla
-- sector
-- barrio
-- vereda
-- corregimiento
-- municipio
+- direccion
 - energia
 - ubicacion
 - numero_cuenta
