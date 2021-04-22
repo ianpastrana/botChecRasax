@@ -38,6 +38,9 @@ intents:
 entities:
 - falla
 - direccion
+- barrio
+- corregimiento
+- vereda
 - energia
 - ubicacion
 - numero_cuenta
