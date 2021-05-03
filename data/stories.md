@@ -6,7 +6,7 @@
   - accion_reporte_falla
 * despedida
   - utter_despedida
-  - 
+
 ## reporte falla de energia_no_saludo + direccion + ubicacion
 * reporte_falla_energia{"direccion": "cll 13 # 11 - 76", "ubicacion" : "neira"}
   - utter_esperar
